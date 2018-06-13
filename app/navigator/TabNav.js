@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import {View,Alert} from 'react-native';
 import {createTabNavigator} from 'react-navigation';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import Categories from '../containers/Categories';
-import Search from '../containers/Search';
-import Coupons from '../containers/Coupons';
-import Home from '../containers/Home';
+import Categories from '../screens/Categories/Categories';
+import Search from '../screens/Search/Search';
+import Coupons from '../screens/Coupons/Coupons';
+import Home from '../screens/Home/Home';
 
 const TabNav = createTabNavigator({
   Home: {

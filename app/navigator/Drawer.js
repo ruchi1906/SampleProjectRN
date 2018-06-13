@@ -1,6 +1,6 @@
 /* drawer navigator & its component screen*/
 import React, { Component } from "react";
-import SideBar from "../containers/SideBar/SideBar";
+import SidebarContainer from "../containers/SidebarContainer";
 import { createDrawerNavigator } from "react-navigation";
 import TabNav from '../navigator/TabNav';
 
@@ -15,7 +15,7 @@ const Drawer = createDrawerNavigator(
   {
     initialRouteName: 'TabNav',
     drawerPosition : "left",
-    contentComponent: ({ navigation }) => (<SideBar navigation={navigation} />),
+    contentComponent: ({ navigation }) => (<SidebarContainer navigation={navigation} />),
   }
 );
 

@@ -11,10 +11,10 @@ import {
     Image,
     View,TextInput
   } from 'react-native';
-import styles from "../styles/homeStyle.js";
-import Header from '../components/Header';
+import styles from "./styles";
+import Header from '../../components/Header/Header';
 
-export default class Coupons extends Component {
+export default class Categories extends Component {
 
     constructor(props) {
         super(props);
@@ -27,10 +27,10 @@ export default class Coupons extends Component {
         return(
             <View style={styles.container}>
             <Header
-                title={'Coupons'}
+                title={'Categories'}
                 isDrawer={false}
                 back={() => {this.props.navigation.goBack(null)}}/>
-            <Text style={styles.welcomeTxt}>Coupons</Text>
+            <Text style={styles.welcomeTxt}>Categories</Text>
             </View>
         )
     }

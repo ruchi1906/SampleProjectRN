@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 import FeatherIcon from 'react-native-vector-icons/dist/Feather';
-import styles from '../styles/headerStyle';
+import styles from './styles';
 
 class Header extends Component {
 

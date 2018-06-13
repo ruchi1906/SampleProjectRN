@@ -10,9 +10,7 @@ import {
   TouchableHighlight,
   Alert
 } from "react-native";
-import {bindActionCreators} from 'redux';
-import {connect} from 'react-redux';
-import styles from '../../styles/leftmenuStyle';
+import styles from './styles';
 import { SafeAreaView } from 'react-navigation';
 
 class SideBar extends Component {
@@ -39,11 +37,6 @@ class SideBar extends Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => {
-  return {}
-}
 
-const mapDispatchToProps = dispatch => (bindActionCreators({
-}, dispatch));
 
-export default connect(mapStateToProps, mapDispatchToProps)(SideBar);
+export default (SideBar);

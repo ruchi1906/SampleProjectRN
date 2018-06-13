@@ -11,8 +11,8 @@ import {
     Image,
     View,TextInput
   } from 'react-native';
-import styles from "../styles/homeStyle.js";
-import Header from '../components/Header';
+import styles from "./styles";
+import Header from '../../components/Header/Header';
 
 export default class Search extends Component {
 

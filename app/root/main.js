@@ -1,45 +1,21 @@
 import React, {Component} from 'react';
-import {
-  AppRegistry,
-  Alert,
-  StyleSheet,
-  TouchableOpacity,
-  AsyncStorage,
-  Text,Dimensions,
-  NetInfo,
-  Platform,
-  Image,
-  View,TextInput
-} from 'react-native';
+import { Text, TextInput } from 'react-native';
 import {createStackNavigator} from 'react-navigation';
-import Drawer from '../navigator/Drawer';
-
+import Drawer from '../components/navigator/Drawer';
+/** allowfontscaling is to avoid fontscaling when device fonts are changed */
 Text.defaultProps.allowFontScaling=false;
 TextInput.defaultProps.allowFontScaling=false;
 
 class Main extends Component {
-
   constructor(props) {
     super(props);
-    this.state = {
-      
+    this.state = {      
     }
   }
-
-  componentWillUnmount() {
-  }
-
-  componentDidMount() {
-  }
-
-  componentWillMount() { 
-  }
-
   render() {
       return <Stack/>
   }
 }
-
 //screen added in stack navigator
 const Stack = createStackNavigator({
   Drawer: {

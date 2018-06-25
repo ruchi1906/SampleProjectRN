@@ -1,5 +1,5 @@
+/**Tab navigator and screens used in tab are added here */
 import React, { Component } from 'react';
-import {View,Alert} from 'react-native';
 import {createTabNavigator} from 'react-navigation';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Categories from '../screens/Categories/Categories';

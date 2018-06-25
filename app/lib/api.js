@@ -1,3 +1,4 @@
+/**Global Api call url */
 const host = "";
 const port = "";
 export const BASE_API_URL =  `${host}`;

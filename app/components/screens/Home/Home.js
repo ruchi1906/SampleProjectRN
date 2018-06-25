@@ -1,18 +1,7 @@
 import React, { Component } from "react";
-import {
-    AppRegistry,
-    Alert,
-    StyleSheet,
-    TouchableOpacity,
-    AsyncStorage,
-    Text,Dimensions,
-    NetInfo,
-    Platform,
-    Image,
-    View,TextInput
-  } from 'react-native';
+import {Text, View } from 'react-native';
 import styles from "./styles";
-import Header from '../../components/Header/Header';
+import Header from '../../../components/Header/Header';
 
 export default class Home extends Component {
 

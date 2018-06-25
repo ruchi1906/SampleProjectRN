@@ -1,6 +1,6 @@
 /* drawer navigator & its component screen*/
 import React, { Component } from "react";
-import SidebarContainer from "../containers/SidebarContainer";
+import SidebarContainer from "../screens/SideBar/SideBar";
 import { createDrawerNavigator } from "react-navigation";
 import TabNav from '../navigator/TabNav';
 

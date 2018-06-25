@@ -1,3 +1,5 @@
+/* Header Component */
+
 import React, { Component } from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 import FeatherIcon from 'react-native-vector-icons/dist/Feather';
